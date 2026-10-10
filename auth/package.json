@@ -19,6 +19,7 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@chcode/common": "^1.0.3",
     "@types/jest": "^30.0.0",
     "@types/supertest": "^7.2.1",
     "body-parser": "^2.3.0",
