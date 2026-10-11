@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
         - name: tickets
-          image: rallycoding/tickets
+          image: ticketing/tickets
           env:
             - name: MONGO_URI
-              value: 'mongodb://tickets-mongo-srv:27017/tickets'
+              value: "mongodb://tickets-mongo-srv:27017/tickets"
             - name: JWT_KEY
               valueFrom:
                 secretKeyRef:
